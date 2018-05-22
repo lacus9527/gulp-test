@@ -1,0 +1,37 @@
+{
+  "name": "gulp-test",
+  "version": "1.0.0",
+  "description": "testing project for gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp clean && gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacus9527/gulp-test.git"
+  },
+  "author": "lacus9527",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lacus9527/gulp-test/issues"
+  },
+  "homepage": "https://github.com/lacus9527/gulp-test#readme",
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-rename": "^1.2.3",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.9.0"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3"
+  }
+}
